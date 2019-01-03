@@ -5,7 +5,7 @@ var guesses = [];
 var holder = [];
 var ansVal = "a";
 var possible ="abcdefghijklmnopqrstuvwxyz"
-prompt();
+
 $(document).keypress(function(event){   //65-90
     if(guesses_left === 10){
         ansVal = possible.charAt(Math.floor(Math.random() * possible.length));
